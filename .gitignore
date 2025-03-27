@@ -1,0 +1,9 @@
+/dev
+Test-CheckGitStatus-*
+/cover_db
+/nytprof
+/nytprof.out
+/.build
+/pod2htmd.tmp
+/gh-pages
+/local

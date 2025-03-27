@@ -1,2 +1,2 @@
-# Perl module Test::GeckGitStatus
+# Perl module Test::CheckGitStatus
 
