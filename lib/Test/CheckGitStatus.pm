@@ -88,7 +88,7 @@ untracked files. You can use it in your unit tests, and it will check
 the status after each test file.
 
 By default it will not run the check, as this would be annoying during
-develoment.
+development.
 
 =head2 USE CASE
 
@@ -99,7 +99,7 @@ if the test exits before the deletion.
 
 Sometimes such temp files are even hidden via C<.gitignore>. Then it
 can happen that one test adds such a file, and one of the next tests
-relies on its existance. And if you only run the next test, you might
+relies on its existence. And if you only run the next test, you might
 not have the file from the previous test, and it fails, and you don't
 know why.
 
@@ -117,7 +117,7 @@ You can also use it with C<prove -MTest::CheckGitStatus>.
 The module runs the check in an END block and tries to make sure that
 it only runs it in the END block of the actual test script, not of any new
 or forked processes.
-It will only run if one of the envionment variables C<TEST_ACTIVE>,
+It will only run if one of the environment variables C<TEST_ACTIVE>,
 C<TEST2_ACTIVE> or C<HARNESS_ACTIVE> is set. (That is to make sure
 it does not run as the END block of the C<prove> app itself.)
 
@@ -152,7 +152,7 @@ For that it would have to run a bit earlier, and at that point some tests
 might still have temp directories open which will be deleted in the global
 destruction phase, which might happen after the status check runs.
 
-But if you actualy would want to avoid such tempoary files completely,
+But if you actually would want to avoid such temporary files completely,
 the alternative implementation would be a better choice.
 
 Of course it still cannot prevent any temporary files created and
