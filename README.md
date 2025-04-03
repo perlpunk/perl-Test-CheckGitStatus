@@ -1,2 +1,0 @@
-# Perl module Test::CheckGitStatus
-

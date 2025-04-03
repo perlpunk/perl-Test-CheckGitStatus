@@ -3,7 +3,7 @@ package Test::CheckGitStatus;
 use strict;
 use warnings;
 
-our $VERSION = 0; # VERSION
+our $VERSION = '0'; # VERSION
 
 my $CHECK_GIT_STATUS = $ENV{CHECK_GIT_STATUS};
 
