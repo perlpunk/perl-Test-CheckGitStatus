@@ -161,7 +161,9 @@ try C<chmod -R a-w .> ;-)
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2025 by Tina Müller
+MIT License
+
+Copyright (c) SUSE LLC, Tina Müller
 
 This library is free software and may be distributed under the same terms
 as perl itself.
