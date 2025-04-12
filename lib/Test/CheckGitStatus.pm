@@ -165,7 +165,4 @@ MIT License
 
 Copyright (c) SUSE LLC, Tina Müller
 
-This library is free software and may be distributed under the same terms
-as perl itself.
-
 =cut
