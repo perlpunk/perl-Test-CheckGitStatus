@@ -18,7 +18,7 @@ jobs:
       run: perl -V
 
     - name: Install deps
-      run: >
+      run: |
         curl -L https://cpanmin.us >cpanm && chmod +x cpanm
         ./cpanm --quiet --notest File::Which Test::More
     - name: Run Tests
