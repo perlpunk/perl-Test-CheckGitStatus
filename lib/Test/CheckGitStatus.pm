@@ -53,7 +53,7 @@ sub _get_status {
     my $cmd = qq{$git rev-parse --git-dir};
     my $out = qx{$cmd};
     return if $? != 0;
-    $cmd = qq{$git status --porcelain=v1 2>&1};
+    $cmd = qq{$git status --porcelain 2>&1};
     my @lines = qx{$cmd};
     die "Problem running '$git':\n" . join '', @lines if $? != 0;
     return @lines;
